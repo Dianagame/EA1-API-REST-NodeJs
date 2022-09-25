@@ -1,0 +1,326 @@
+{
+	"info": {
+		"_postman_id": "f15336c1-4f9a-4505-996c-ec0300c8c8ed",
+		"name": "clase",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23076573"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8085/EstadoEquipo",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\":\"En Uso\",\r\n    \"estado\":\"Activo\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8085/EstadoEquipo",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8085",
+					"path": [
+						"EstadoEquipo"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8085/EstadoEquipo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8085/EstadoEquipo",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8085",
+					"path": [
+						"EstadoEquipo"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8085/EstadoEquipo/6323f6e32eb7bd118b5b6616",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\":\"En reparacion\",\r\n    \"estado\":\"Activo\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8085/EstadoEquipo/6330cd6dcf7e7492dce0989e",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8085",
+					"path": [
+						"EstadoEquipo",
+						"6330cd6dcf7e7492dce0989e"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8085/TipoEquipo",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\":\"Movil\",\r\n    \"estado\":\"Activo\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8085/TipoEquipo",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8085",
+					"path": [
+						"TipoEquipo"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8085/TipoEquipo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8085/TipoEquipo",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8085",
+					"path": [
+						"TipoEquipo"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8085/TipoEquipo/6323f8e013faa3fd97ad0606",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\":\"Red\",\r\n    \"estado\":\"Activo\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8085/TipoEquipo/6330ce32cf7e7492dce098a3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8085",
+					"path": [
+						"TipoEquipo",
+						"6330ce32cf7e7492dce098a3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8085/usuario",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8085/usuario",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8085",
+					"path": [
+						"usuario"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8085/usuario",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{    \"nombre\": \"Camilo\",\r\n    \"email\": \"h@gmail.com\",\r\n    \"estado\": \"Activo\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8085/usuario",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8085",
+					"path": [
+						"usuario"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8085/usuario/6330cb95cf7e7492dce0988a",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{    \"nombre\": \"Camilo\",\r\n    \"email\": \"c@gmail.com\",\r\n    \"estado\": \"Activo\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8085/usuario/6330cb95cf7e7492dce0988a",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8085",
+					"path": [
+						"usuario",
+						"6330cb95cf7e7492dce0988a"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8085/Marca",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8085/Marca",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8085",
+					"path": [
+						"Marca"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8085/Marca/6330cfb1cf7e7492dce098ad",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\":\"Lenovo\",\r\n    \"estado\":\"Activo\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8085/Marca/6330cfb1cf7e7492dce098ad",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8085",
+					"path": [
+						"Marca",
+						"6330cfb1cf7e7492dce098ad"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8085/Marca",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"nombre\":\"Hp\",\r\n\"estado\":\"Activo\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8085/Marca",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8085",
+					"path": [
+						"Marca"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
